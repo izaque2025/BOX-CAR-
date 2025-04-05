@@ -253,7 +253,8 @@
 /* ===== CELULAR (até 600px) ===== */
 
 @media (max-width: 600px) {
- h1, h2, h3 {
+ @media (max-width: 600px) {
+  h1, h2, h3 {
       font-size: 1.5rem;
   }
   body{
@@ -310,13 +311,7 @@
       font-size: 30px;
   }
   
-/* #produtos {
-      padding-left: 20px;
-      padding-right: 20px;
-      top: 20vh;
-      justify-content: center;
-      align-items: center;
-  }*/
+
 
   #produtos {
       padding-left: 10px;
@@ -415,6 +410,9 @@
     width: 100%;
     justify-content: center;
 }
+
+   
+  }
 
 
 /* ===== CELULAR PEQUENO (até 400px) ===== */
