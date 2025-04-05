@@ -253,15 +253,19 @@
 /* ===== CELULAR (até 600px) ===== */
 
 @media (max-width: 600px) {
-  h1, h2, h3 {
+ h1, h2, h3 {
       font-size: 1.5rem;
   }
   body{
-    background-color: rgb(213, 114, 22);
+    background-color: rgb(213, 22, 22);
   }
 
   p {
       font-size: 1rem;
+  }
+
+  #header{
+    width: 600px;
   }
   
   #menu ul {
@@ -281,16 +285,21 @@
   .icons i {
       font-size: 30px;
   }
-  
- .container-items, .item, .item img, .container-shadow {/* aqui*/
+  .container-shadow{
+    width: 100%;
+  }
+ .container-items, .item, .item img {/* aqui*/
       height: 75vh;
-      width: 100vh;
+      width: 600px;
   }
   
   #banner {        
       margin-top: 44%; 
-      justify-content: center;
-      align-items: center;
+      
+  }
+
+  .action-button{
+    color: #000;
   }
   .container-centralizar{
       margin-top: -45%;
@@ -319,98 +328,94 @@
       width: 100%;
       max-width: 300px;
   }
-
-  #empresa{
-    width: 65vh;
-    margin-left: 20px;
-    margin-right: 20px;
-  }
-  
+    
   .container-sobre {
-      width: 95%;
-  }
+    width: 95%;
+}
 .texto p{
-   padding-right: 25px;/*aque*/
-   font-size: 0.90rem;
+ padding-right: 25px;/*aque*/
+ font-size: 0.90rem;
 }
 
-  
-  
- #equipe{
-    width: 100%;/*aque*/
-    
- }
 
-  .wrapper .carousel {
-      grid-auto-columns: 100%;
-  }
+
+#equipe{
+  width: 100%;/*aque*/
+  height: 890px;
   
-  .wrapper i {
-      height: 40px;
-      width: 40px;
-      line-height: 40px;
-      font-size: 1rem;
-  }
-  
-  .wrapper i:first-child {
-      left: -15px;
-  }
-  
-  .wrapper i:last-child {
-      right: -15px;
-  }
+}
+
+.wrapper .carousel {
+    grid-auto-columns: 100%;
+}
+
+.wrapper i {
+    height: 40px;
+    width: 40px;
+    line-height: 40px;
+    font-size: 1rem;
+}
+
+.wrapper i:first-child {
+    left: -15px;
+}
+
+.wrapper i:last-child {
+    right: -15px;
+}
 
 #destaque{
-    width: 100vh;
+  width: 100%;
 }
 
-  
-  #titulo-destaque {
-      margin-top: 40px;
-  }
-  
-  .hr-destaque {
-      width: 200px;
-  }
-  
-  .card-destaque {/*aqui*/
-    height: auto;
-    
-}
-  
-  .display-row {
-      flex-direction: column;
-  }
-  
-  .card-loja .display-row {
-      flex-direction: row;
-  }
-  #contato{/*aqui*/
-    margin-top: 250px;
-  }
-  
-  .img-loja {
-      width: 100px;
-      height: 100px;
-  }
-  
-  .img-loja img {
-      width: 90px;
-      height: 80px;
-  }
-  
-  .btn-enviar {
-      width: 100%;
-      margin-left: 0;
-  }
-  
-  .redes {
-      width: 100%;
-      justify-content: center;
-  }
-  
 
+#titulo-destaque {
+    margin-top: 40px;
 }
+
+.hr-destaque {
+    width: 200px;
+}
+
+.card-destaque {/*aqui*/
+  display: block;
+  flex-wrap: wrap;
+  height: auto;
+  width: 100%;
+  
+}
+
+.display-row {
+    flex-direction: column;
+}
+
+.card-loja .display-row {
+    flex-direction: row;
+}
+#contato{/*aqui*/
+  margin-top: 250px;
+}
+
+.img-loja {
+    width: 100px;
+    height: 100px;
+}
+
+.img-loja img {
+    width: 90px;
+    height: 80px;
+}
+
+.btn-enviar {
+    width: 100%;
+    margin-left: 0;
+}
+
+.redes {
+    width: 100%;
+    justify-content: center;
+}
+
 
 /* ===== CELULAR PEQUENO (até 400px) ===== */
 @media (max-width: 400px) {
