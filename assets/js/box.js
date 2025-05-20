@@ -6,8 +6,8 @@ let imgId = 1
 
 //slide topor
 const  images =[
-  { 'id': '1', 'url': './assets/img/banne/carro17.webp' },
-  { 'id': '2', 'url': './assets/img/banne/heder2.jpg' },
+  { 'id': '1', 'url': '../assets/img/banne/carro17.webp' },
+  { 'id': '2', 'url': '../assets/img/banne/heder2.jpg' },
   { 'id': '3', 'url': './assets/img/banne/heder3.webp' },
   { 'id': '4', 'url': './assets/img/banne/heder4.webp' },
 ];
